@@ -15,7 +15,7 @@ const AddTask = ({ onSaveTask, editTask, updateTask }) => {
     };
 
     onEdit();
-  }, [editTask]);
+  });
 
   const onSubmit = (e) => {
     e.preventDefault();

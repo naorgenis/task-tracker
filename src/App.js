@@ -76,7 +76,6 @@ const App = () => {
     setTask(newTask);
 
     setShowAddTask(true);
-    console.log("check", newTask);
   };
 
   const updateTask = async (editedTask) => {
